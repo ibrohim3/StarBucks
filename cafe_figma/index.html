@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ibrohim" />
+    <meta
+      name="description"
+      content="Ushbu sayt coffeni online buyurtma qilish uchun ishlatiladi."
+    />
+    <meta name="technology" content="technology: HTML, CSS, JS" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts preload + onload -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      media="all"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      />
+    </noscript>
+
+    <!-- CSS preload -->
+    <link
+      rel="preload"
+      href="style.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="style.css" /></noscript>
+
+    <!-- Preload for main image (LCP) -->
+    <link rel="preload" as="image" href="./images/img-1.png" />
+
+    <title>StarBucks</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <p><a href="#" class="logo">StarBucks</a></p>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Select</a></li>
+            <li><a href="#">Shop</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="main-section">
+        <div class="text">
+          <h1 class="new-cafe">
+            New Cafe <br />
+            by <span class="gradient-text">StarBucks</span>
+          </h1>
+          <p class="info">
+            Have time to buy the most harmonious drinks in the new Starbucks
+            coffee and don't forget about the discount!
+          </p>
+          <div class="main-btns">
+            <button class="select-btn">Select a coffee</button>
+            <button class="more-btn">More</button>
+          </div>
+          <div class="ranking">
+            <div>
+              <h2>9k <span>+</span></h2>
+              <p>Premium Users</p>
+            </div>
+            <div>
+              <h2>2k <span>+</span></h2>
+              <p>Happy Customer</p>
+            </div>
+            <div>
+              <h2>28k <span>+</span></h2>
+              <p>Awards Winning</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image">
+          <img
+            src="./images/img-1.png"
+            alt="coffee-image"
+            width="500"
+            height="700"
+          />
+          <div class="lines">
+            <img src="./images/bg_line1.png" alt="line" />
+            <img src="./images/bg_line1.png" alt="line" />
+            <img src="./images/bg_line1.png" alt="line" />
+          </div>
+        </div>
+
+        <div class="section-box">
+          <img class="seal" src="./images/seal.svg" alt="seal image" />
+          <div>
+            <img src="./images/heart-2.png" alt="heart-image" />
+            <h4>Tasty</h4>
+            <p>We have the most delicious coffee</p>
+          </div>
+          <div>
+            <img src="./images/raketa-3.png" alt="raketa-image" />
+            <h4>Fast</h4>
+            <p>Our cafe will serve you quickly</p>
+          </div>
+          <div>
+            <img src="./images/money-4.png" alt="money-image" />
+            <h4>Available</h4>
+            <p>Cafe will serve at the most pleasant prices</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="make-section">
+        <div class="make-image">
+          <img src="./images/img-2.png" alt="hole image" loading="lazy" />
+        </div>
+        <div class="make-text">
+          <p>We make <span class="gradient-text">delicious</span></p>
+          <span class="span">
+            Only in 2021 we have made more than 100,000 orders for you, your
+            loved ones, all of you, and in 2022 we are ready to destroy the
+            market
+          </span>
+          <div class="make-btn-box">
+            <div class="lines">
+              <img src="./images/bg-lines.png" alt="line" />
+            </div>
+            <img src="./images/btn-bg-img.png" alt="human image" />
+            <div class="btn">
+              <button class="gradient-btn">Cooking Process</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="product-section">
+        <div class="description">
+          <p>New Our <span class="gradient-text"> Products</span></p>
+          <img class="bg1" src="./images/prroduct-bg1.png" alt="light green" />
+          <span class="span"
+            >Have time to buy the most harmonious drinks in the new Starbucks
+            coffee and don't forget about the discount! Starbucks coffee and
+            don't forget about the discount!</span
+          >
+        </div>
+        <div class="products">
+          <div class="product">
+            <img class="bg" src="./images/bg (2).png" alt="light" />
+            <img
+              class="bottle"
+              src="./images/bottle_1.png"
+              alt="coffee bottle"
+            />
+            <p class="name">Fast</p>
+            <p class="info">Our cafe will serve you quickly</p>
+            <strong class="price"
+              >7,45$ <span class="span">330 ml</span></strong
+            >
+            <div class="buy-btn">
+              <button class="gradient-btn">Buy Product</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img class="bg" src="./images/bg (2).png" alt="light" />
+            <img
+              class="bottle"
+              src="./images/bottle_2.png"
+              alt="coffee bottle"
+            />
+            <p class="name">Fast</p>
+            <p class="info">Our cafe will serve you quickly</p>
+            <strong class="price"
+              >7,45$ <span class="span">330 ml</span></strong
+            >
+            <div class="buy-btn">
+              <button class="gradient-btn">Buy Product</button>
+            </div>
+          </div>
+
+          <div class="product">
+            <img class="bg" src="./images/bg (2).png" alt="light" />
+            <img
+              class="bottle"
+              src="./images/bottle_3.png"
+              alt="coffee bottle"
+            />
+            <p class="name">Fast</p>
+            <p class="info">Our cafe will serve you quickly</p>
+            <strong class="price"
+              >7,45$ <span class="span">330 ml</span></strong
+            >
+            <div class="buy-btn">
+              <button class="gradient-btn">Buy Product</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="events-section">
+        <div class="description">
+          <span class="span"
+            >Only in 2021 we have made more than 100,000 orders for you, your
+            loved ones, all of you, and in 2022 we are ready to destroy the
+            market</span
+          >
+          <img class="bg1" src="./images/prroduct-bg1.png" alt="light green" />
+          <p>Our New <span class="gradient-text"> Eventd</span></p>
+        </div>
+        <div class="cards">
+          <div class="top-cards">
+            <div class="card big">
+              <p>TWO COFFEE FOR 1 PRICE</p>
+              <div class="btn">
+                <button class="gradient-btn">More</button>
+              </div>
+            </div>
+            <div class="card big">
+              <p>
+                KITCHEN <br />
+                TOUR
+              </p>
+              <div class="btn">
+                <button class="gradient-btn">More</button>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-cards">
+            <div class="card small">
+              <p>FREE COFFEE FOR 3 COFFEE</p>
+              <div class="btn">
+                <button class="gradient-btn">More</button>
+              </div>
+            </div>
+            <div class="card small">
+              <p>
+                OUR <br />
+                INSTAGRAM
+              </p>
+              <div class="btn">
+                <button class="gradient-btn">More</button>
+              </div>
+            </div>
+            <div class="card small">
+              <p>WHERE ARE YOU CHOOSE US?</p>
+              <div class="btn">
+                <button class="gradient-btn">More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts-section">
+        <div class="description">
+          <p>Our<span class="gradient-text"> Contacts</span></p>
+          <img class="bg1" src="./images/prroduct-bg1.png" alt="light green" />
+          <span class="span"
+            >Only in 2021 we have made more than 100,000 orders for you, your
+            loved ones, all of you, and in 2022 we are ready to destroy the
+            market</span
+          >
+          <div class="contacts">
+            <p><i class="fa-brands fa-instagram"></i>  @supercoffee</p>
+            <p><i class="fa-solid fa-phone-volume"></i>  +7-999-999-99-99</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./images/img3 (2).png" alt="coffee logo image" loading="lazy">
+        </div>
+      </div>
+    </div>
+      <footer> 
+        <div class="links">
+          <ul>
+            <li><a href="#" class="logo">StarBucks</a></li>
+            <li class="gradient-text">+7-999-999-99-99</li>
+          </ul>
+          <ul>
+            <li><p>Main</p></li>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+          <ul>
+            <li><p>We make</p></li>
+            <li><a href="#">Process</a></li>
+          </ul>
+          <ul>
+            <li><p>Products</p></li>
+            <li><a href="#">Cappuccino</a></li>
+            <li><a href="#">Fast</a></li>
+            <li><a href="#">Fast</a></li>
+          </ul>
+          <ul>
+            <li><p>Events </p></li>
+            <li><a href="#">Drinks</a></li>
+            <li><a href="#">Eat</a></li>
+          </ul>
+          <ul>
+            <li><p>Contacts </p></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Number</a></li>
+          </ul>
+          <ul>
+          <li><a href="#" aria-label="Scroll to top"><button aria-label="Scroll to top"> <i class="fa-solid fa-arrow-up"></i>
+            <span class="sr-only">Scroll to top</span></button></a></li>
+          <li><a href="#" aria-label="Instagram profile"><i class="fa-brands fa-instagram"></i> </a></li>
+        </ul>
+      </div>
+      </footer>
+  </body>
+</html>
